@@ -1,3 +1,8 @@
+---
+layout: post
+title: You're up and running!
+---
+
 sed 파일 처리 example Memoranda
 
 down file txt 배포 가공 가공

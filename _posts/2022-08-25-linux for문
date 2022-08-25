@@ -1,3 +1,4 @@
+Linux for 문으로 날짜별 rm 삭제 루프 실현
 
 cd /Logs/WL7/report
 profileid=$1

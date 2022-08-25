@@ -1,0 +1,20 @@
+
+cd /Logs/WL7/report
+profileid=$1
+yyyy=$2
+if [ $# -eq 2 ];then
+for j in 01 02 03 04 05 06 07 08 09 10 11 12
+do
+for k in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+do
+ls -al $1/$yyyy.$j.$k/dat
+ls -al $1/$yyyy.$j.$k/db
+ls -al $1/$yyyy.$j.$k/hourly/dat
+ls -al $1/real/$yyyy.$j.$k/dat
+ls -al $1/real/$yyyy.$j.$k/db
+ls -al $1/real/$yyyy.$j.$k/hourly/dat
+done
+done
+else
+echo "Usage ======"
+echo "./aaa.sh profiled yyyy"
